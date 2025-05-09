@@ -130,3 +130,7 @@ require("lazy").setup("plugins", {
 		},
 	},
 })
+
+require("lualine").setup({
+	options = { theme = "material" },
+})
